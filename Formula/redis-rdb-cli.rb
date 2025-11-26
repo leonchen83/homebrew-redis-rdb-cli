@@ -3,7 +3,7 @@ class RedisRdbCli < Formula
   homepage "https://github.com/leonchen83/redis-rdb-cli"
   url "https://github.com/leonchen83/redis-rdb-cli/releases/download/v0.9.9/redis-rdb-cli-release.tar.gz"
   version "0.9.9"
-  sha256 "2ff5c14a26fc850be4aef270ab3911afab4467e6b33721660dc38096466c024c"
+  sha256 "65d5e40333694a5495a5929b6c73e59b57fa904c75db9cd23b46301969d5b9be"
 
   depends_on "openjdk"
 
