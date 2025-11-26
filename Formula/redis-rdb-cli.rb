@@ -11,6 +11,7 @@ class RedisRdbCli < Formula
     libexec.install Dir["*"]
 
     Dir["#{libexec}/bin/*"].each do |file|
+      next if file.end_with?(".cmd")
       bin.install_symlink file
     end
   end
