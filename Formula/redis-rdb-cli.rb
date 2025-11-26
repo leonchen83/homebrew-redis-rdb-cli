@@ -12,7 +12,7 @@ class RedisRdbCli < Formula
 
     Dir["#{libexec}/bin/*"].each do |file|
       next if file.end_with?(".cmd")
-      (bin/File.basename(file)).write_env_script file, {}
+      bin.install_symlink file
     end
   end
 
